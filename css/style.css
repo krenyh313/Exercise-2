@@ -14,13 +14,25 @@ header a   {
     font-family: 'Carter One';
     color: #ffffff;
     font-size: 40px;
-    text-decoration: none;   
+    text-decoration: none;
 }
 header img  {
     margin-top: 32px; 
     margin-bottom: 11px;
-    margin-left: 15px;
     max-width: 100%;
+}
+.img1, .img3, .img4 {
+    margin-bottom: 41px;
+}
+.img1, .img2, .img3, .img4 {
+    border-radius: 10px;
+    margin-left: 16px;
+}
+.img2   {
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    filter: brightness(0.5);
 }
 
 
@@ -131,5 +143,6 @@ footer    {
 }
 footer a    {
     opacity: 40%;
+    padding-right: 11px;
     text-decoration: none;
 }
